@@ -1,8 +1,8 @@
-name: "Daily Fudan Graduate"
+name: "Daily Fudan Graduate_w"
 
 on:
   schedule:
-    - cron: "0 02 * * *"  # scheduled at 10:00 (UTC+8) everyday?
+    - cron: "30 00 * * *"  # scheduled at 10:00 (UTC+8) everyday?
   workflow_dispatch:
 
 env:
